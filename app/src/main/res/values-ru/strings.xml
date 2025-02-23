@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MIYYAJON</string>
+    <string name="easy">ЛЕГКИЙ</string>
+    <string name="medium">СРЕДНИЙ</string>
+    <string name="hard">СЛОЖНЫЙ</string>
+    <string name="proverb">Память – не ведро, чем больше в неё льёшь, тем больше остаётся.</string>
+    <string name="time">Время</string>
+    <string name="attempt">Попытка</string>
+    <string name="info">Данное приложения я сделал как домашнее задание когда учился в GITA Academy. Цель: найти одинаковые картинки. Знания которые я использовал: Hilt, Navigation, Animation, Single activity. Приложение находится на разработке. Ждите обновления!</string>
+</resources>

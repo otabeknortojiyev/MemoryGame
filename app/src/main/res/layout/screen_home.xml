@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@id/gl1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.skydoves.elasticviews.ElasticButton
+            android:id="@+id/iv_easy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/level_button_easy"
+            android:contentDescription="go to game screen"
+            android:fontFamily="@font/fontdiner_swanky"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/easy"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <com.skydoves.elasticviews.ElasticButton
+            android:id="@+id/iv_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/level_button_medium"
+            android:contentDescription="go to game screen"
+            android:fontFamily="@font/fontdiner_swanky"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/medium"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <com.skydoves.elasticviews.ElasticButton
+            android:id="@+id/iv_hard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/level_button_hard"
+            android:contentDescription="go to game screen"
+            android:fontFamily="@font/fontdiner_swanky"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/hard"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:contentDescription="show settings"
+        android:src="@drawable/settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.skydoves.elasticviews.ElasticButton
+        android:id="@+id/proverb"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="-20dp"
+        android:background="@color/white"
+        android:clickable="false"
+        android:text="@string/proverb"
+        android:textColor="@color/black"
+        app:button_cornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@id/iv_home_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_home_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/miyyajon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@id/iv_settings"
+        app:layout_constraintStart_toStartOf="@id/iv_settings"
+        app:layout_constraintTop_toBottomOf="@id/iv_settings">
+
+        <TextView
+            android:id="@+id/iv_uz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:contentDescription="change app language"
+            android:fontFamily="@font/bagel_fat_one"
+            android:text="UZ"
+            android:textColor="#FFDD04"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/iv_ru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:contentDescription="change app language"
+            android:fontFamily="@font/bagel_fat_one"
+            android:text="RU"
+            android:textColor="#FFDD04"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/iv_en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:contentDescription="change app language"
+            android:fontFamily="@font/bagel_fat_one"
+            android:text="EN"
+            android:textColor="#FFDD04"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:contentDescription="on off music"
+            android:src="@drawable/music_on" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

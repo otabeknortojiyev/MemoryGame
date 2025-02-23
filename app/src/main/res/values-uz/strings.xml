@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MIYYAJON</string>
+    <string name="easy">OSON</string>
+    <string name="medium">O\'RTA</string>
+    <string name="hard">QIYIN</string>
+    <string name="proverb">Хотира мушак каби; уни қанча кўп ишлатсанг, шунча кучли бўлади.</string>
+    <string name="time">Vaqt</string>
+    <string name="attempt">Urinish</string>
+    <string name="info">Men GITA Akademiyasida o\'qiganimda ushbu ilovani uy vazifasi sifatida tayyorlaganman. Maqsad: bir xil rasmlarni topish. Men foydalangan bilimlar: Hilt, Navigation, Animation, Single Activity. Ilova ishlab chiqilmoqda. Yangilanishni kuting!</string>
+</resources>

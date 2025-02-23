@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MIYYAJON</string>
+    <string name="easy">EASY</string>
+    <string name="medium">MEDIUM</string>
+    <string name="hard">HARD</string>
+    <string name="proverb">Memory is like a muscle; the more you use it, the stronger it gets.</string>
+    <string name="time">Time</string>
+    <string name="attempt">Attempt</string>
+    <string name="info">I made this application as homework when I studied at GITA Academy. Goal: find identical pictures. Knowledge that I used: Hilt, Navigation, Animation, Single activity. The application is under development. Wait for the update!
+</string>
+</resources>
